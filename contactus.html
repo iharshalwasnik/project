@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="CSS/styling.css">
+</head>
+
+<body>
+    <!------------Navbar Section------------------->
+    <navbar>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./projectphotos/lifestyle1.png" height="80"
+                        style="mix-blend-mode: darken;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index1.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./blog.html">BLOG</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PRODUCTS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./trending.html">Trending</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./shirts.html">Shirts</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./trousers.html">Trousers</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./contactus.html">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./login1.html" data-bs-toggle="modal"
+                                data-bs-target="#LoginModal">LOGIN</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" data-bs-toggle="modal"
+                                data-bs-target="#RegisterModal">SIGN UP</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <i class="fa-solid my-2 fa-cart-shopping"
+                            style="font-size: xX-large;color:black;margin-right: 20px;"></i>
+                        <input class="form-control me-5" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark me-4" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </navbar>
+    <!------------------------------------------- contact form--------------------------------------------------------->
+
+    <div class="container my-4">
+        <h1>CONTACT US</h1>
+        <form class="row g-3 py-5 m">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your email id">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Enter your password">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="enter your address">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Query</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Enter your query">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected> Select the state</option>
+                <option>Maharashtra</option>
+                <option>Andra pradesh</option>
+                <option>Himachal Pradesh</option>
+                <option>Karnataka</option>
+                <option>Chennai</option>
+                <option>Kerala</option>
+                <option>Goa</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Do you agree with terms and conditions.
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-secondary">SUBMIT</button>
+            </div>
+          </form>
+    </div>
+        <!--------------------------- footer-------------------------------------->
+        <section class="footer" style="background-color: rgb(238, 232, 224);">
+            <div class="container">
+                <div class="row py-5 text-center">
+                    <div class="col-md-6">
+                        <h2>Subscribe to our awesome emails</h2>
+                        <h4>Get our latest offers and news straight in your inbox.</h4>
+                        <form class="d-flex">
+                            <input class="form-control me-5" type="search" placeholder="please enter an email address"
+                                aria-label="Search">
+                            <button class="btn btn-outline-dark me-4" type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Payment Gateway</h2>
+                        <a class="pay1" href="#"><img src="./projectphotos/Pay/app.jpg" height="40"></a>
+                        <a class="pay1" href="#"><img src="./projectphotos/Pay/pay.png" height="40"></a>
+                        <a class="pay1" href="#"><img src="./projectphotos/Pay/play.jpg" height="40"></a>
+                        
+
+                    </div>
+
+                    <div class="row py-5 text-center">
+                        <div class="col-lg-4">
+                            <img src="./projectphotos/lifestyle1.png" height="100px" style="mix-blend-mode: darken;">
+                            <p style="text-align: justify;">Lifestyle is India’s premier fashion destination for the latest trends and hottest styles</p>
+                            <p style="text-align: justify;">Contact us: help@lifestylestores.com</p>
+                        </div>
+
+                        <div class="col-lg-4 text-center">
+                            <h4>Our Company</h4>
+                            <p><a href="#">Shipping & Delivery Policy</a></p>
+                            <p><a href="#">Privacy Policy</a></p>
+                            <p><a href="#">Terms & Conditions</a></p>
+                            <p><a href="#">Return & Refund Policy</a></p>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <h4>Social Media</h4>
+                            <br>
+                            <a href="https://www.facebook.com/" style="color:black"><i
+                                    class="fa-brands fa-facebook fa-2xl"></i></a>
+                            <a href="https://www.instagram.com/" style="color:black"><i
+                                    class="fa-brands fa-instagram fa-2xl"></i></a>
+                            <a href="https://www.twitter.com/" style="color:black"><i
+                                    class="fa-brands fa-twitter fa-2xl"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <hr style="color: white;" />
+                    <div class="row py-1 m-auto text-center">
+                        <div class="col-lg">
+                            <p>Copyright @ 2021 Organic. All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+</body>
+
+</html>

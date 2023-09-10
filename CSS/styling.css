@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+.nav-item{
+    font-size: larger;
+    font-weight: 600;
+    padding-right: 20px;
+
+}
+.nav-item:hover{
+    font-size: x-large;
+}
+.nav-item :hover .dropdown-menu{
+    display: block;
+    left: 100%;
+    top: 0;
+    position: absolute !important;
+  }
+ .carousel-inner{
+    height: 640px;
+ }
+.col-lg-4 a{
+  padding: 8px;
+  font-size: x-large;
+  
+}
+.footer .col-lg-4 a{
+  text-decoration: none;
+  color:rgb(77, 74, 74)
+}
+.purchase img{
+  width: 300px;
+  margin: 15px;
+  height: 350px;
+  
+}
+.banner1 img{
+  width: 100%;
+}
+.banner2 img{
+  width: 100%;
+}
